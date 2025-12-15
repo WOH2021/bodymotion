@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Portuguese Pages -->
+  <url>
+    <loc>https://www.bodymotion.pt/</loc>
+    <lastmod>2025-12-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bodymotion.pt/en/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.bodymotion.pt/" />
+  </url>
+
+  <url>
+    <loc>https://www.bodymotion.pt/about.html</loc>
+    <lastmod>2025-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bodymotion.pt/en/about.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.bodymotion.pt/about.html" />
+  </url>
+
+  <url>
+    <loc>https://www.bodymotion.pt/schedule.html</loc>
+    <lastmod>2025-12-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bodymotion.pt/en/schedule.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.bodymotion.pt/schedule.html" />
+  </url>
+
+  <url>
+    <loc>https://www.bodymotion.pt/contact.html</loc>
+    <lastmod>2025-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bodymotion.pt/en/contact.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.bodymotion.pt/contact.html" />
+  </url>
+
+  <!-- English Pages -->
+  <url>
+    <loc>https://www.bodymotion.pt/en/</loc>
+    <lastmod>2025-12-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bodymotion.pt/en/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.bodymotion.pt/" />
+  </url>
+
+  <url>
+    <loc>https://www.bodymotion.pt/en/about.html</loc>
+    <lastmod>2025-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bodymotion.pt/en/about.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.bodymotion.pt/about.html" />
+  </url>
+
+  <url>
+    <loc>https://www.bodymotion.pt/en/schedule.html</loc>
+    <lastmod>2025-12-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bodymotion.pt/en/schedule.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.bodymotion.pt/schedule.html" />
+  </url>
+
+  <url>
+    <loc>https://www.bodymotion.pt/en/contact.html</loc>
+    <lastmod>2025-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bodymotion.pt/en/contact.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.bodymotion.pt/contact.html" />
+  </url>
+
+</urlset>
