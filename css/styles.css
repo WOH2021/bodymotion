@@ -352,7 +352,7 @@ main {
 }
 
 .nav-mobile.open {
-  max-height: 500px;
+  max-height: 600px;
   opacity: 1;
   padding-top: 2rem;
 }
