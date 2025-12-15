@@ -352,9 +352,11 @@ main {
 }
 
 .nav-mobile.open {
-  max-height: 600px;
+  max-height: 800px;
   opacity: 1;
   padding-top: 2rem;
+   padding-bottom: 2rem;
+   overflow-y: auto;
 }
 
 @media (min-width: 1024px) {
