@@ -586,8 +586,8 @@ main {
   cursor: pointer;
   transition: all 250ms ease-in-out;
   white-space: nowrap;
-  background-color: #e6dfcc;
-  color: #57433d;
+  background-color: #57433d;
+  color: #f6f3e5;
 }
 
 .hero-cta .btn-primary:hover,
