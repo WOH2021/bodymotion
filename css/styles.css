@@ -355,8 +355,8 @@ main {
   max-height: 800px;
   opacity: 1;
   padding-top: 2rem;
-   padding-bottom: 2rem;
-   overflow-y: auto;
+  padding-bottom: 2rem;
+  overflow-y: auto;
 }
 
 @media (min-width: 1024px) {
@@ -592,7 +592,7 @@ main {
 
 .hero-cta .btn-primary:hover,
 .hero-cta .btn-secondary:hover {
-  background-color: #d9ceb8;
+  background-color: #4a3733;
   transform: translateY(-2px);
   box-shadow: 0 4px 6px -1px rgba(87, 67, 61, 0.1), 0 2px 4px -1px rgba(87, 67, 61, 0.06);
 }
