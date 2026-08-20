@@ -1,5 +1,29 @@
 // Mobile Menu Toggle
 document.addEventListener('DOMContentLoaded', function() {
+  // Reveal each main section as it enters the viewport.
+  const sections = document.querySelectorAll('main > section');
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if (reducedMotion || !('IntersectionObserver' in window)) {
+    sections.forEach(function(section) {
+      section.classList.add('is-visible');
+    });
+  } else {
+    const sectionObserver = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    sections.forEach(function(section) {
+      section.classList.add('section-transition');
+      sectionObserver.observe(section);
+    });
+  }
+
   // Mobile menu toggle
   const menuToggle = document.querySelector('.menu-toggle');
   const navMobile = document.querySelector('.nav-mobile');

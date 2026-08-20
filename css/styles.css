@@ -211,6 +211,29 @@ main {
   flex-direction: column;
 }
 
+main > section.section-transition {
+  opacity: 0;
+  transform: translateY(1.5rem);
+  transition: opacity 600ms ease-out, transform 600ms ease-out;
+}
+
+main > section.section-transition.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  main > section.section-transition {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
 /* ===========================================
    HEADER STYLES
    =========================================== */
