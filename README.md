@@ -22,12 +22,12 @@ Visit: [Body Motion Pilates](https://www.bodymotionpilates.pt) *(update with you
 .
 ├── index.html              # Portuguese home page
 ├── about.html              # About & services (PT)
-├── schedule.html           # Class schedule (PT)
+├── services.html           # Services page (PT)
 ├── contact.html            # Contact information (PT)
 ├── en/                     # English versions
 │   ├── index.html
 │   ├── about.html
-│   ├── schedule.html
+│   ├── services.html
 │   └── contact.html
 ├── css/
 │   └── styles.css          # Complete compiled CSS
@@ -102,7 +102,7 @@ Edit these files with your actual details:
 
 ### Add/Update Content
 
-- **Schedule**: Edit `schedule.html` and `en/schedule.html`
+- **Services**: Edit `services.html` and `en/services.html`
 - **Services**: Edit `about.html` and `en/about.html`
 - **Contact**: Edit `contact.html` and `en/contact.html`
 

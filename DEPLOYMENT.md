@@ -239,7 +239,7 @@ Create `vercel.json`:
      ├── en/
      ├── index.html
      ├── about.html
-     ├── schedule.html
+     ├── services.html
      ├── contact.html
      └── favicon.ico
      ```
@@ -366,7 +366,7 @@ Create `sitemap.xml` in root:
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.bodymotionpilates.pt/schedule.html</loc>
+    <loc>https://www.bodymotionpilates.pt/services.html</loc>
     <lastmod>2025-12-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -390,7 +390,7 @@ Create `sitemap.xml` in root:
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.bodymotionpilates.pt/en/schedule.html</loc>
+    <loc>https://www.bodymotionpilates.pt/en/services.html</loc>
     <lastmod>2025-12-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
