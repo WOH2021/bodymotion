@@ -31,13 +31,6 @@
   <meta property="og:locale:alternate" content="pt_PT">
   <meta property="og:site_name" content="Body Motion Pilates">
 
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://www.bodymotion.pt/en/">
-  <meta name="twitter:title" content="Body Motion Pilates - Clinical Pilates in Vila do Conde">
-  <meta name="twitter:description" content="Personalized Clinical Pilates with Certified Physiotherapist in Vila do Conde. Rehabilitation and pain treatment.">
-  <meta name="twitter:image" content="https://www.bodymotion.pt/assets/images/videohero.png">
-
   <!-- Geo Tags for Local SEO -->
   <meta name="geo.region" content="PT-13">
   <meta name="geo.placename" content="Vila do Conde">
@@ -193,6 +186,7 @@
   <main>
     <!-- Hero Section -->
     <section class="hero">
+      <video class="hero-video" poster="../assets/images/videohero.png" autoplay muted loop playsinline></video>
       <div class="container">
         <div class="hero-content">
           <h1>Conscious Movement for a Healthy Life</h1>
@@ -207,22 +201,26 @@
       </div>
     </section>
 
-    <!-- Benefits Section -->
-    <section class="benefits section-spacing">
+    <!-- Services highlight (Benefits removed per TODO) -->
+    <section class="services-showcase section-spacing">
       <div class="container">
-        <h2 class="text-center">Benefits of Clinical Pilates</h2>
-        <div class="benefits-grid">
-          <div class="benefit-card">
-            <h3>Improves Mobility</h3>
-            <p>Increase your flexibility and range of motion</p>
+        <h2 class="text-center">Our Services</h2>
+        <p class="section-subtitle text-center">Clinical and therapeutic sessions designed for rehabilitation, wellbeing and performance.</p>
+        <div class="services-feature-grid">
+          <div class="service-feature-card">
+            <span class="eyebrow">Clinical Pilates</span>
+            <h3>Private & Group Sessions</h3>
+            <p>Personalised sessions for rehabilitation, prevention and conditioning.</p>
           </div>
-          <div class="benefit-card">
-            <h3>Strengthens the Core</h3>
-            <p>Develop strength and stability in your body's core</p>
+          <div class="service-feature-card">
+            <span class="eyebrow">Physiotherapy</span>
+            <h3>Rehabilitation Programs</h3>
+            <p>Treatments focused on post-surgical recovery and pain management.</p>
           </div>
-          <div class="benefit-card">
-            <h3>Corrects Posture</h3>
-            <p>Relieve pain and improve body alignment</p>
+          <div class="service-feature-card">
+            <span class="eyebrow">Complementary</span>
+            <h3>Massage • Nutrition • Pediatric Osteopathy</h3>
+            <p>Support services for an integrated recovery and wellness plan.</p>
           </div>
         </div>
       </div>
@@ -236,18 +234,20 @@
           A fully equipped space prepared for your Clinical Pilates practice
         </p>
         <div class="gallery-grid">
-          <div class="gallery-item">
-            <img src="../assets/images/classequipment.png" alt="Body Motion Modalities - Individual, Group, Physiotherapy" loading="lazy">
+          <a href="./about.html" class="gallery-item" aria-label="Explore Body Motion services">
+            <img src="../assets/images/classequipment.png" alt="Body Motion Services - Individual, Group, Physiotherapy" loading="lazy">
             <div class="gallery-caption">
-              <h3>Modalities</h3>
+              <h3>Services</h3>
+              <span class="card-link">See details</span>
             </div>
-          </div>
-          <div class="gallery-item">
+          </a>
+          <a href="./schedule.html" class="gallery-item" aria-label="View available classes and schedules">
             <img src="../assets/images/studioclass.png" alt="Body Motion Studio Entrance" loading="lazy">
             <div class="gallery-caption">
               <h3>Our Space</h3>
+              <span class="card-link">View classes</span>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </section>
