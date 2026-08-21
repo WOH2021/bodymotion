@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  font-family: 'Spartan', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.625;
@@ -34,7 +34,7 @@ body {
    TYPOGRAPHY
    =========================================== */
 h1 {
-  font-family: 'Gyst', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'League Spartan', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: clamp(2.25rem, 5vw, 3.75rem);
   font-weight: 700;
   line-height: 1.25;
@@ -44,7 +44,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Gyst', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'League Spartan', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: clamp(1.875rem, 4vw, 3rem);
   font-weight: 700;
   line-height: 1.25;
@@ -54,7 +54,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Gyst', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'League Spartan', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: clamp(1.5rem, 3vw, 2.25rem);
   font-weight: 600;
   line-height: 1.375;
@@ -64,7 +64,7 @@ h3 {
 }
 
 h4 {
-  font-family: 'Spartan', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'League Spartan', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: clamp(1.25rem, 2vw, 1.5rem);
   font-weight: 600;
   line-height: 1.375;
@@ -74,7 +74,7 @@ h4 {
 }
 
 h5 {
-  font-family: 'Spartan', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'League Spartan', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 1.125rem;
   font-weight: 500;
   line-height: 1.5;
@@ -84,7 +84,7 @@ h5 {
 }
 
 h6 {
-  font-family: 'Spartan', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'League Spartan', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.5;
@@ -95,7 +95,7 @@ h6 {
 }
 
 p {
-  font-family: 'Spartan', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.625;
@@ -118,8 +118,8 @@ a:hover {
 }
 
 a:focus-visible {
-  outline: 2px solid #57433d;
-  outline-offset: 2px;
+  outline: 3px solid #8a5a44;
+  outline-offset: 3px;
 }
 
 ul, ol {
@@ -142,8 +142,12 @@ button {
 }
 
 button:focus-visible {
-  outline: 2px solid #57433d;
-  outline-offset: 2px;
+  outline: 3px solid #8a5a44;
+  outline-offset: 3px;
+}
+
+section[id], [id].service-group {
+  scroll-margin-top: 7rem;
 }
 
 input, textarea, select {
@@ -259,7 +263,7 @@ main > section.section-transition.is-visible {
 }
 
 .logo-img {
-  height: 58px;
+  height: 50px;
   width: auto;
   max-width: 250px;
 }
@@ -302,7 +306,7 @@ main > section.section-transition.is-visible {
   padding: 1rem 2rem;
   border: none;
   border-radius: 8px;
-  font-family: 'Spartan', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 1rem;
   font-weight: 500;
   text-decoration: none;
@@ -377,8 +381,8 @@ main > section.section-transition.is-visible {
 .nav-mobile.open {
   max-height: 800px;
   opacity: 1;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   overflow-y: auto;
 }
 
@@ -406,7 +410,7 @@ main > section.section-transition.is-visible {
   padding: 1rem 2rem;
   border: none;
   border-radius: 8px;
-  font-family: 'Spartan', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 1rem;
   font-weight: 500;
   text-decoration: none;
@@ -449,6 +453,16 @@ main > section.section-transition.is-visible {
 
 .lang-btn:hover {
   background-color: rgba(144, 130, 118, 0.1);
+}
+
+.lang-btn:focus-visible,
+.nav-link:focus-visible,
+.btn-book:focus-visible,
+.btn-primary:focus-visible,
+.btn-secondary:focus-visible,
+.menu-toggle:focus-visible {
+  outline: 3px solid #8a5a44;
+  outline-offset: 3px;
 }
 
 .lang-btn.active {
@@ -551,7 +565,7 @@ main > section.section-transition.is-visible {
   background-color: #e6dfcc;
   padding: 6rem 0;
   text-align: center;
-  min-height: 500px;
+  min-height: 420px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -563,6 +577,7 @@ main > section.section-transition.is-visible {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center 42%;
   filter: brightness(0.88);
 }
 
@@ -577,6 +592,17 @@ main > section.section-transition.is-visible {
   .hero {
     padding: 6rem 0;
     min-height: 600px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    min-height: min(72svh, 460px);
+    padding: 3.5rem 0;
+  }
+
+  .hero-media {
+    object-position: center 38%;
   }
 }
 
@@ -615,7 +641,7 @@ main > section.section-transition.is-visible {
   padding: 1rem 2rem;
   border: none;
   border-radius: 8px;
-  font-family: 'Spartan', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 1rem;
   font-weight: 500;
   text-decoration: none;
@@ -770,7 +796,7 @@ main > section.section-transition.is-visible {
   justify-content: center;
   width: fit-content;
   margin: 1rem auto 0;
-  font-family: 'Spartan', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 0.04em;
@@ -898,7 +924,7 @@ main > section.section-transition.is-visible {
   padding: 1rem 2rem;
   border: none;
   border-radius: 8px;
-  font-family: 'Spartan', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 1rem;
   font-weight: 500;
   text-decoration: none;
@@ -960,7 +986,7 @@ main > section.section-transition.is-visible {
 }
 
 .about-hero .lead {
-  font-family: 'Spartan', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.625;
@@ -980,7 +1006,7 @@ main > section.section-transition.is-visible {
 }
 
 .content-section p {
-  font-family: 'Spartan', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.625;
@@ -1068,7 +1094,7 @@ main > section.section-transition.is-visible {
 }
 
 .studio-showcase .showcase-content p {
-  font-family: 'Spartan', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.625;
@@ -1333,7 +1359,7 @@ main > section.section-transition.is-visible {
   padding: 1rem 2rem;
   border: none;
   border-radius: 8px;
-  font-family: 'Spartan', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 1rem;
   font-weight: 500;
   text-decoration: none;
@@ -1357,7 +1383,7 @@ main > section.section-transition.is-visible {
   padding: 1rem 2rem;
   border: none;
   border-radius: 8px;
-  font-family: 'Spartan', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 1rem;
   font-weight: 500;
   text-decoration: none;
@@ -1385,7 +1411,7 @@ main > section.section-transition.is-visible {
 }
 
 .schedule-hero .lead {
-  font-family: 'Spartan', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.625;
@@ -1644,6 +1670,25 @@ main > section.section-transition.is-visible {
   white-space: nowrap;
 }
 
+@media (max-width: 480px) {
+  .hero-cta,
+  .booking-panel {
+    gap: 1rem;
+  }
+
+  .hero-cta .btn-primary,
+  .hero-cta .btn-secondary,
+  .booking-panel .btn-primary {
+    width: 100%;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .booking-panel .btn-primary {
+    justify-self: stretch;
+  }
+}
+
 @media (min-width: 768px) {
   .needs-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1789,7 +1834,7 @@ main > section.section-transition.is-visible {
 }
 
 .contact-hero .lead {
-  font-family: 'Spartan', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.625;

@@ -9,7 +9,7 @@
 
 The site has a clear service proposition, short navigation, prominent WhatsApp calls to action, semantic HTML, responsive layouts, and a bilingual foundation. The work remaining is refinement rather than a framework rebuild: content readiness, contact-data consistency, booking clarity, accessibility behavior, and a more deliberate graphical system.
 
-The six team cards are intentional development mocks waiting for real names and photographs. This is acceptable during development, but completing or temporarily hiding that section is a launch gate because clinical trust depends on accurate people and credentials.
+The six team cards are intentional development mocks waiting for real names and photographs. This is acceptable during development. When the owner supplies the data, update the cards with the real content and remove the mock values before publication.
 
 ## Canonical business information
 
@@ -39,7 +39,7 @@ English may translate the labels, but must preserve the same facts. Use `tel:+35
 
 #### Complete the mocked team section before launch
 
-Replace each mock with owner-supplied real data: name, role, qualifications, concise biography, matching portrait, person-specific alt text, and the English equivalent. Do not use equipment or entrance photos as person portraits. If the content is not ready at launch, hide the section rather than publishing misleading filler.
+When the owner supplies the data, replace each mock with the real name, role, qualifications, concise biography, matching portrait, person-specific alt text, and English equivalent. Do not use equipment or entrance photos as person portraits.
 
 **Acceptance:** No placeholder strings remain in the public build, every portrait matches the described person, and PT/EN contain equivalent essential team information.
 
@@ -97,7 +97,6 @@ Unify card padding, alignment, heading scale, image treatment, hover/focus state
 1. Create a PT/EN content matrix for titles, navigation, services, CTAs, contact details, hours, and footers.
 2. Propagate the canonical business block across all pages, metadata, links, and schema.
 3. Collect the six real portraits, names, roles, qualifications, biographies, and translations.
-4. Decide whether the team section will be complete or hidden at launch.
 
 ### Phase 2 - Usability and accessibility
 
@@ -119,13 +118,13 @@ Unify card padding, alignment, heading scale, image treatment, hover/focus state
 14. Check booking, phone, WhatsApp, email, Instagram, map, navigation, language switching, anchors, and all image loads.
 15. Run automated accessibility checks and manual keyboard-only checks.
 16. Verify no console errors, 404 resources, layout shift, unreadable focus states, or contradictory contact information remain.
-17. Complete or hide the team section before production publication.
+17. Replace the team mocks with the supplied real content before production publication.
 
 ## Acceptance criteria
 
 - All visible operational data matches the supplied canonical information.
 - PT and EN contain equivalent essential content and functional journeys.
-- No placeholder team content is published at launch; real portraits match real people.
+- The team mocks are replaced with supplied real content before launch; portraits match real people.
 - A visitor can book through WhatsApp or phone from every primary page.
 - The mobile menu is keyboard-operable, closes with Escape, and returns focus correctly.
 - Focus indicators, contrast, touch targets, zoom, reflow, and reduced motion meet the intended accessibility standard.
